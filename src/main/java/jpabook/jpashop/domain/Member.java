@@ -22,7 +22,6 @@ public class Member {
     @NotEmpty
     private String name;
 
-    @JsonIgnore // json으로 변환할 때 무시
     @Embedded
     private Address address;
 
